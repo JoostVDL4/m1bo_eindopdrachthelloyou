@@ -2,14 +2,15 @@ import os
 def tutorial():                 
   os.system("cls") 
   choices = ["a","b",]
-  print("This story is told in an first person perspective, meaning that you will experience the story from the eyes of the protaganist. You can make choices in the story, you always have 2 choices to choice from. Do you want to start\n A Yes \n B No")
+  print("This story is told in an first person perspective, meaning that you will experience the story from the eyes of the protaganist.\nYou can make choices in the story, you always have 2 choices to choice from. Do you want to start\n A Yes \n B No")
   userInput = ""
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         start()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
+        print("Bye")
         quit()
     else: 
       print("Please enter a valid option.")  
@@ -21,9 +22,9 @@ def start():
   while userInput not in choices:
     print("Options: A/B")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst3()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst2()
     else: 
       print("Please enter a valid option.")
@@ -35,9 +36,9 @@ def tekst2():
   while userInput not in choices:
     print("Options: A/B")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst4()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst6()
     else: 
       print("Please enter a valid option.")
@@ -49,9 +50,9 @@ def tekst3():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst5()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst4()
     else: 
       print("Please enter a valid option.")
@@ -68,9 +69,9 @@ def tekst5():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst17()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst7()
     else: 
       print("Please enter a valid option.")
@@ -82,9 +83,9 @@ def tekst6():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst17()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst7()
     else: 
       print("Please enter a valid option.")      
@@ -96,9 +97,9 @@ def tekst7():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst8()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst10()
     else: 
       print("Please enter a valid option.")
@@ -110,9 +111,9 @@ def tekst8():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst9()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst10()
     else: 
       print("Please enter a valid option.")    
@@ -124,9 +125,9 @@ def tekst9():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst11()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst12()
     else: 
       print("Please enter a valid option.")
@@ -138,9 +139,9 @@ def tekst10():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst11()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst12()
     else: 
       print("Please enter a valid option.")
@@ -152,9 +153,9 @@ def tekst11():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst12()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst14()
     else: 
       print("Please enter a valid option.") 
@@ -166,9 +167,9 @@ def tekst12():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst15()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst13()
     else: 
       print("Please enter a valid option.")
@@ -180,9 +181,9 @@ def tekst13():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst15()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst16()
     else: 
       print("Please enter a valid option.")     
@@ -194,9 +195,9 @@ def tekst14():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst18()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst19()
     else: 
       print("Please enter a valid option.")
@@ -208,9 +209,9 @@ def tekst15():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst18()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst19()
     else: 
       print("Please enter a valid option.")   
@@ -227,9 +228,9 @@ def tekst17():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst11()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst12()
     else: 
       print("Please enter a valid option.")
@@ -241,9 +242,9 @@ def tekst18():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst20()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst21()
     else: 
       print("Please enter a valid option.")
@@ -261,9 +262,9 @@ def tekst20():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst23()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst22()
     else: 
       print("Please enter a valid option.")
@@ -275,9 +276,9 @@ def tekst21():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst23()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst22()
     else: 
       print("Please enter a valid option.")
@@ -295,9 +296,9 @@ def tekst23():
   while userInput not in choices:
     print("Options: a/b")
     userInput = input()
-    if userInput == "a":
+    if userInput.lower() == "a":
         tekst22()
-    elif userInput == "b":
+    elif userInput.lower() == "b":
         tekst24()
     else: 
       print("Please enter a valid option.")
