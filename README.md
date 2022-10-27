@@ -1,4 +1,2 @@
 # m1bo_eindopdrachthelloyou
-eindopdracht periode 1
-test 1
-
+Keuzeverhaal m1bo periode 1.1 2022
