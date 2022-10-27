@@ -2,7 +2,7 @@ import os
 def tutorial():                 
   os.system("cls") 
   choices = ["a","b",]
-  print("This story is told in an first person perspective, meaning that you will experience the story from the eyes of the protaganist.\nYou can make choices in the story, you always have 2 choices to choice from. Do you want to start\nA) Yes \nB) No")
+  print("This story is told in an first person perspective, meaning that you will experience the story from the eyes of the protaganist.\nYou can make choices in the story, you always have 2 choices to choice from. Do you want to start?\nA) Yes \nB) No")
   userInput = ""
   while userInput not in choices:
     print("Options: A/B")
@@ -31,7 +31,7 @@ def start():
 def tekst2(): 
   os.system("cls") 
   choices = ["a","b",]
-  print("You find your friend Joe relaxing at his hangout; however, he seems... a bit on edge, a bit nervous as well.\nYou ask him what’s going on with him, he shrugs it off by telling you that he just had a bad night's sleep.\nYou let it go and ask him what’s he doing today, however you both hear heavy stomping from a further distance.\nYou see a big, armored vehicle and an army of soldiers heading towards the village, a few moments later u hear explosions and screaming. Joe runs away. What do u do?\nA) Head towards the village and help people\nB) Run with Joe ")
+  print("You find your friend Joe relaxing at his hangout; however, he seems... a bit on edge, a bit nervous as well.\nYou ask him what’s going on with him, he shrugs it off by telling you that he just had a bad night's sleep.\nYou let it go and ask him what’s he doing today, however you both hear heavy stomping from a further distance.\nYou see a big, armored vehicle and an army of soldiers heading towards the village, a few moments later u hear explosions and screaming.\nJoe runs away. What do u do?\nA) Head towards the village and help people\nB) Run with Joe ")
   userInput = ""
   while userInput not in choices:
     print("Options: A/B")
@@ -58,9 +58,20 @@ def tekst3():
       print("Please enter a valid option.")
 def tekst4():
   os.system("cls") 
+  choices = ["a","b",]
   print("You help the people who got wounded, you drag the wounded people inside a house to safety to aid them to their wounds.\nYet u do not have the necessary tools to help stop the severe wounds the victims have received from the explosions. You hear radio chatter outside.\nYou peek outside the window to see a group of tall soldiers in fully black armor. They are looking for survivors to kill off.\nOne trooper spotted you peeking through the window.\nThe group of soldiers quickly enter the house and before u know it you were shot. U have died trying to do right.")
   print("Ending 1")
-  quit()
+  print("Do you want to play again?\nA) Yes\nB) No")
+  userInput = ""
+  while userInput not in choices:
+    print("Options: A/B")
+    userInput = input()
+    if userInput.lower() == "a":
+        start()
+    elif userInput.lower() == "b":
+        quit()
+    else: 
+      print("Please enter a valid option.")
 def tekst5():
   os.system("cls") 
   choices = ["a","b",]
@@ -190,7 +201,7 @@ def tekst13():
 def tekst14():                 
   os.system("cls") 
   choices = ["a","b",]
-  print("You and Joe are staging a fight, he keeps pushing and shouting at you. 2 guards0 approach and u nod to Joe to let him know they are coming.\nJoe turns around and knocks out one guard while you tackle the other guard and knock him out. Joe says to you that he has got the keys. He runs to the exit, and you follow him.\nJoe unlocks the door and you both go through it. The exit is not the exit what you thought it was, the ‘prison’ u was in was just a part of it. The prison itself is massive, it goes up vertically, and if you look up to the ceiling you can see a bit of sunlight, noticing that you are very much down at the bottom of the prison.\nYou and Joe look at each other speechless. You notice a lift to your right, but there is also one to your left\n A) Left'\n B) Right")
+  print("You and Joe are staging a fight, he keeps pushing and shouting at you. 2 guards approach and u nod to Joe to let him know they are coming.\nJoe turns around and knocks out one guard while you tackle the other guard and knock him out. Joe says to you that he has got the keys. He runs to the exit, and you follow him.\nJoe unlocks the door and you both go through it. The exit is not the exit what you thought it was, the ‘prison’ u was in was just a part of it. The prison itself is massive, it goes up vertically, and if you look up to the ceiling you can see a bit of sunlight, noticing that you are very much down at the bottom of the prison.\nYou and Joe look at each other speechless. You notice a lift to your right, but there is also one to your left\n A) Left'\n B) Right")
   userInput = ""
   while userInput not in choices:
     print("Options: A/B")
@@ -220,7 +231,18 @@ def tekst16():
   choices = ["a","b",]
   print("You stay in line, and you get escorted to your cell. Joe never shows up again.\nA few days later you hear other inmates talking about how the guards shot a prisoner who tried to escape.\nYou ask if they know who it was. They give you a description of the prisoner, which is very familiar to Joe. Joe is dead and you are stuck for eternity in prison.\nYour future will be behind bars")
   print("Prison ending")
-  quit()
+  print("Do you want to play again?\nA) Yes\nB) No")
+  userInput = ""
+  while userInput not in choices:
+    print("Options: A/B")
+    userInput = input()
+    if userInput.lower() == "a":
+        start()
+    elif userInput.lower() == "b":
+        quit()
+    else: 
+      print("Please enter a valid option.")
+  
 def tekst17():                 
   os.system("cls") 
   choices = ["a","b",]
@@ -254,7 +276,18 @@ def tekst19():
   choices = ["a","b",]
   print("You and Joe take the right elevator. After a very long wait it reaches its destination.\nOnce the doors open you notice that the environment looks different.A man is standing in front of you. He looks dissatisfied. You were this close he says. Joe walks away and vanishes.\nThe man says you are being tested for the 56th time.\nHe says you have died long ago, and your brain has been copied to the cloud for immortality. All the things you have experienced where to test if you are aware and sharp enough for the life beyond death. Yet your last choice was a mistake, as you will no longer be allowed to go beyond.\nHe says it is a shame, yet he must delete your online version of yourself for the safety of the people who made it to the beyond. You lose your feelings slowly and you see yourself fading away. All the effort you made... It was almost worth it.")
   print("Bad ending")
-  quit()
+  print("Do you want to play again?\nA) Yes\nB) No")
+  userInput = ""
+  while userInput not in choices:
+    print("Options: A/B")
+    userInput = input()
+    if userInput.lower() == "a":
+        start()
+    elif userInput.lower() == "b":
+        quit()
+    else: 
+      print("Please enter a valid option.")
+  
 def tekst20():                 
   os.system("cls") 
   choices = ["a","b",]
@@ -288,7 +321,17 @@ def tekst22():
   choices = ["a","b",]
   print("While fuming with rage, you head toward the portal and enter it. All you can see is white, and then suddenly you can see it again.\nYou are in a beautiful place, full of life and people. Your rage about Joe slowly disappears, as you’ve just entered a new part of your life, a new start. The man pops out of nowhere in front of you, telling you what you can do and what opportunities there are.\nHe reassures you that things will become okay, better. Your new life has just begun.")
   print("Good ending")
-  quit()   
+  print("Do you want to play again?\nA) Yes\nB) No")
+  userInput = ""
+  while userInput not in choices:
+    print("Options: A/B")
+    userInput = input()
+    if userInput.lower() == "a":
+        start()
+    elif userInput.lower() == "b":
+        quit()
+    else: 
+      print("Please enter a valid option.")
 def tekst23():                 
   os.system("cls") 
   choices = ["a","b",]
@@ -303,10 +346,22 @@ def tekst23():
         tekst24()
     else: 
       print("Please enter a valid option.")
-def tekst24():                 
+def tekst24():
+  choices = ["a","b",]              
   os.system("cls") 
   print("You continue fighting, it seems like a wasted effort. The man says he’s disappointed in you and stabs you with ease.\n“All that effort, yet u cannot contain your emotions. What a waste”. The man walks away, and your vision turns to black.\nThe fight is done, yet you did not win.")
   print("Bad ending")
+  print("Do you want to play again?\nA) Yes\nB) No")
+  userInput = ""
+  while userInput not in choices:
+    print("Options: A/B")
+    userInput = input()
+    if userInput.lower() == "a":
+        start()
+    elif userInput.lower() == "b":
+        quit()
+    else: 
+      print("Please enter a valid option.")
   quit()   
 tutorial()
 start()                                                  
