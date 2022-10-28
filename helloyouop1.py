@@ -159,7 +159,7 @@ def tekst10():
 def tekst11():
   os.system("cls") 
   choices = ["a","b",]
-  print("You decide to listen to Joe’s plan, it’s sound rubbish. He suggests we stage a fight, attract the guards and a crowd.\nThen when the guards are close enough, you try to take them out.\nAnd run away quickly with the keys. You have a lot of doubt in this plan, since you both do not have any experience in combat. Joe asks what you think of it\nA) Suggest we wait things out\nB) Execute Joe’s plan ")
+  print("You decide to listen to Joe’s plan, it’s sound rubbish. He suggests we stage a fight, attract the guards and a crowd.\nThen when the guards are close enough, you try to take them out.\nAnd run away quickly with the keys. You have a lot of doubt in this plan, since you both do not have any experience in combat.\nJoe asks what you think of it\nA) Suggest we wait things out\nB) Execute Joe’s plan ")
   userInput = ""
   while userInput not in choices:
     print("Options: A/B")
@@ -201,7 +201,7 @@ def tekst13():
 def tekst14():                 
   os.system("cls") 
   choices = ["a","b",]
-  print("You and Joe are staging a fight, he keeps pushing and shouting at you. 2 guards approach and u nod to Joe to let him know they are coming.\nJoe turns around and knocks out one guard while you tackle the other guard and knock him out. Joe says to you that he has got the keys. He runs to the exit, and you follow him.\nJoe unlocks the door and you both go through it. The exit is not the exit what you thought it was, the ‘prison’ u was in was just a part of it. The prison itself is massive, it goes up vertically, and if you look up to the ceiling you can see a bit of sunlight, noticing that you are very much down at the bottom of the prison.\nYou and Joe look at each other speechless. You notice a lift to your right, but there is also one to your left\n A) Left'\n B) Right")
+  print("You and Joe are staging a fight, he keeps pushing and shouting at you. 2 guards approach and u nod to Joe to let him know they are coming.\nJoe turns around and knocks out one guard while you tackle the other guard and knock him out. Joe says to you that he has got the keys. He runs to the exit, and you follow him.\nJoe unlocks the door and you both go through it. The exit is not the exit what you thought it was, the ‘prison’ u was in was just a part of it.\nThe prison itself is massive, it goes up vertically, and if you look up to the ceiling you can see a bit of sunlight, noticing that you are very much down at the bottom of the prison.\nYou and Joe look at each other speechless.\nYou notice a lift to your right, but there is also one to your left\n A) Left'\n B) Right")
   userInput = ""
   while userInput not in choices:
     print("Options: A/B")
